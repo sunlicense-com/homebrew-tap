@@ -3,27 +3,27 @@
 class Sunlicense < Formula
   desc "Manage SunLicense licenses, products and customers from your terminal"
   homepage "https://docs.sunlicense.com/cli/"
-  version "0.6.0"
+  version "0.7.1"
 
   on_macos do
     on_arm do
-      url "https://registry.npmjs.org/@sunlicense/cli-darwin-arm64/-/cli-darwin-arm64-0.6.0.tgz"
-      sha256 "c6493544537e66410aa7853f1e5b0029b4d39189446eda8bdc33d5ca9dec5754"
+      url "https://registry.npmjs.org/@sunlicense/cli-darwin-arm64/-/cli-darwin-arm64-0.7.1.tgz"
+      sha256 "578ee31abd66b15ea4d442121c6c9069f166f66a3a8f5592f72bdb4838595c79"
     end
     on_intel do
-      url "https://registry.npmjs.org/@sunlicense/cli-darwin-x64/-/cli-darwin-x64-0.6.0.tgz"
-      sha256 "bf6d65a77c86802115a56f87ccfb041ec959a0275a797078b8b1684054b1c367"
+      url "https://registry.npmjs.org/@sunlicense/cli-darwin-x64/-/cli-darwin-x64-0.7.1.tgz"
+      sha256 "1566c0d2e0c4f260c3780497b7ac9f6bf39a7fefd0b2b483f1007faefba93ef8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://registry.npmjs.org/@sunlicense/cli-linux-arm64/-/cli-linux-arm64-0.6.0.tgz"
-      sha256 "cf17c3b64c421c67320fa73a06022bc6bef17085c4403c6568481ecb93ce50ae"
+      url "https://registry.npmjs.org/@sunlicense/cli-linux-arm64/-/cli-linux-arm64-0.7.1.tgz"
+      sha256 "c917ad18d5fd216babfd0ea784c419fd7d9a4e1a4a190f228198f4bd250567b4"
     end
     on_intel do
-      url "https://registry.npmjs.org/@sunlicense/cli-linux-x64/-/cli-linux-x64-0.6.0.tgz"
-      sha256 "630f82a78de3ed0116b31b97f982bb70f349689efec574e752e2e3026d5abd5e"
+      url "https://registry.npmjs.org/@sunlicense/cli-linux-x64/-/cli-linux-x64-0.7.1.tgz"
+      sha256 "3d054ea0df084bdabb136ab491c14d6b94b4823dab850be1eabb1e0166b4c3d9"
     end
   end
 
